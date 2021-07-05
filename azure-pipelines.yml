@@ -16,9 +16,6 @@ variables:
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
   dotnetSdkVersion: '5.x'
 
-variables:
-  buildConfiguration: 'Release'
-
 steps:
 
 - task: UseDotNet@2
